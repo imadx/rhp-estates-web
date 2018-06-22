@@ -137,7 +137,7 @@ hgroup{
 .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 	.logo_title{
 		display: block;
 		text-align: center;
@@ -151,6 +151,12 @@ hgroup{
 	}
 	.form .label-text .half{
 		width: 100%;
+	}
+	.big-text{
+		font-size: 1.4rem;
+	}
+	.slightly-big-text{
+		font-size: 1.3rem;
 	}
 }
 

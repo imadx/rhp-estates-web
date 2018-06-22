@@ -1,10 +1,12 @@
 function setLayout(){
-	adjustToHeaderHeight();
+	adjustHeights();
 }
 
-function adjustToHeaderHeight(){
+function adjustHeights(){
 	var height = $("#topBar").outerHeight();
 	$("#contentBelowTopBar").css("padding-top", height + "px");
+	$("#contentBelowTopBar").css("padding-top", height + "px");
+	$(".overlay").height($("#jssor_1").height());
 }
 
 function setSliderWidths(){
